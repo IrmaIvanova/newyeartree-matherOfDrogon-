@@ -1,0 +1,35 @@
+﻿
+#content {
+  height: 417px;
+  width: 290px;
+  position: fixed;
+  left: 43%;
+  bottom: 16%;
+  background-image: url('../fir_tree_PNG2482.png');
+  background-size: 289px;
+  z-index:2;
+}
+
+/* img:nth-child(2n){
+  transform: rotate(45deg);
+}
+img:nth-child(2n+1){
+  transform: rotate(-45deg);
+} */
+img {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+}
+
+#ballPlace{
+  /* -webkit-transform: perspective(100px) rotateX(40deg); */
+  transform: perspective(100px) rotateX(40deg);
+  transform: perspective(110px) rotateX(27deg);
+  width: 145px;
+  position: absolute;
+  left: 71px;
+  top: -27px;
+  height: 276px;
+  
+}
